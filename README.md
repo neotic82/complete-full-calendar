@@ -12,7 +12,7 @@ git clone git://github.com/arshaw/fullcalendar.git
 
 <h4>Info</h4>
 
-Default lenguaje : Es (You can change the lenguaje in perso.js)
+<strong>Default lenguaje : Es </strong> (can change the lenguaje in perso.js)
 
 <h5>Captures</h5>
 
