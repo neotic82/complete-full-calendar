@@ -1,4 +1,4 @@
-<h1>Full-sized drag & drop event calendar</h1>
+<h1>Complete Full Calendar Full-sized drag & drop event calendar</h1>
 
 <h2>Getting Set Up</h2>
 
