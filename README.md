@@ -13,25 +13,25 @@ git clone git://github.com/arshaw/fullcalendar.git
 
 <h4>Captures</h4>
 
-- General
+- <strong>General</strong>
 
 <img src="https://raw.githubusercontent.com/neotic82/CompleteFullCalendar/master/img_examples/calendar.jpg"/>
 
-- Add Action
+- <strong>Add Action</strong>
 
 <img src="https://raw.githubusercontent.com/neotic82/CompleteFullCalendar/master/img_examples/calendar_add.jpg"/>
 
 
-- Qtips to show action info quickly
+- <strong>Qtips to show action info quickly</strong>
 
 <img src="https://raw.githubusercontent.com/neotic82/CompleteFullCalendar/master/img_examples/qtip.jpg"/>
 
 
-- Clasedit to format text
+- <strong>Clasedit to format text</strong>
 
 <img src="https://raw.githubusercontent.com/neotic82/CompleteFullCalendar/master/img_examples/classyedit.jpg"/>
 
 
-- ColorPicker and Datetimepicker
+- <strong>ColorPicker and Datetimepicker</strong>
 
 <img src="https://raw.githubusercontent.com/neotic82/CompleteFullCalendar/master/img_examples/colorpicker-datetimepicker.jpg"/>
