@@ -13,7 +13,7 @@ function initGlobalParams() {
 	$('#color').colorPicker({colors: ["#69D2E7","#A7DBD8","#E0E4CC","#F38630","#FA6900","#D95B43","#ECD078","#C7F464","#4ECDC4","#C8C8A9","#83AF9B","#E5FCC2"], transparency: false,showHexField: false});
 	
   // Medidas para el alto y ancho del popup del fomulario modal
-	heightModalForm = 550; 
+	heightModalForm = 565; 
 	widthModalForm = 420;
 	
 	// Dinstintas paletas de colores para colocar en los eventos aleatoriamente
