@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8' />
+
+<!-- CSS -->
+<link href='resources/css/perso.css' rel='stylesheet' />
+<link href='lib/cupertino/jquery-ui.min.css' rel='stylesheet' />
+<link href='resources/css/jquery.qtip.css' rel='stylesheet' />
+<link href='resources/css/fullcalendar.css' rel='stylesheet' />
+<link href='resources/css/jquery.classyedit.css' rel='stylesheet' />
+<link href='resources/css/fullcalendar.print.css' rel='stylesheet' media='print' />
+<link href='resources/css/jquery.datetimepicker.css' rel='stylesheet' />
+<link href='resources/css/colorPicker.css' rel='stylesheet' />
+
+
+<!-- JS -->
+<script src='lib/jquery.min.js'></script>
+<script src='lib/jquery-ui.js'></script>
+<script src='lib/moment.min.js'></script>
+<script src='lib/jquery.qtip.js'></script>
+<script src='resources/js/fullcalendar.js'></script>
+<script src='resources/lang/all.js'></script>
+<script src='resources/js/jquery.classyedit.js'></script>
+<script src='resources/js/gcal.js'></script>
+<script src='resources/js/jquery.datetimepicker.js'></script>
+<script src='resources/js/jquery.colorPicker.min.js'></script>
+<script src='resources/js/perso.js'></script>
+
+</head>
+
+<body>
+	
+	<div id='calendar'></div>
+		
+	<!-- Formulario de creacion/modificacion de evento y horas -->
+	<div id="dialog-form" title="Datos de la acci&oacute;n" style="display:none">
+  <p class="validateTips">Los campos marcados con * son obligatorios.</p>
+	  <form>
+	  	<input type="hidden" name="edit_event_id" id="edit_event_id" class="text ui-widget-content ui-corner-all" />
+		  <fieldset>
+		    <label for="name">* Nombre </label>
+		    <input type="text" name="name" id="name" class="text ui-widget-content ui-corner-all" size="30">
+		  	<br/>
+		    <label for="url">&nbsp;&nbsp;&nbsp;URL&nbsp;</label>
+		    <input type="text" name="url" id="url" value="" class="text ui-widget-content ui-corner-all" size="38">
+		    <label for="comentarios">&nbsp;&nbsp;Comentarios&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+		    <br/>
+		    &nbsp;<textarea rows="4" cols="22" name="comentarios" id="comentarios" value="" class="text ui-widget-content ui-corner-all"></textarea>
+		    <br/>
+		    <label for="color">&nbsp;&nbsp;&nbsp;Color</label>
+		    <input id="color" name="color" type="text" class="text ui-widget-content ui-corner-all"/>
+				</br>
+		    <span class="inicio">
+			    <label for="inicio">&nbsp;&nbsp;&nbsp;Inicio</label>
+			    <input type="text" name="inicio" id="inicio" value="" readonly class="text ui-widget-content ui-corner-all">
+		  	</span>
+		    <br/>
+		    <span class="fin">
+		    	<label for="fin">&nbsp;&nbsp;&nbsp;Fin</label>
+		    	<input type="text" name="fin" id="fin" value="" readonly class="text ui-widget-content ui-corner-all">
+		  	</span>
+		  </fieldset>
+	  </form>
+	</div>
+</body>
+</html>
