@@ -25,7 +25,7 @@ git clone git://github.com/arshaw/fullcalendar.git
 <img src="https://raw.githubusercontent.com/neotic82/CompleteFullCalendar/master/img_examples/calendar_add.jpg"/>
 
 
-- <strong>Qtips to show action info quickly</strong>
+- <strong>Qtips to show action info quickly on mouse over</strong>
 
 <img src="https://raw.githubusercontent.com/neotic82/CompleteFullCalendar/master/img_examples/qtip.jpg"/>
 
