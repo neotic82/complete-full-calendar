@@ -8,4 +8,4 @@
 
 <h3>Clone Git Repo</h3>
 
-- git clone git://github.com/arshaw/fullcalendar.git
+git clone git://github.com/arshaw/fullcalendar.git
